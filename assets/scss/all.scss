@@ -1,0 +1,28 @@
+@import './layout/helpers/var.scss';
+@import './layout/base/reset';
+
+
+
+.navbar{
+    background-color:$p-color;
+    font-size: 16px; 
+    padding: $padding-2; 
+
+    ul{
+        display: flex;
+    }
+
+    a{
+        color: $s-color;
+        text-decoration: none;
+    }
+}
+
+.footer{
+    background-color: $p-color;
+    color: $s-color;
+    padding: $padding-2; 
+}
+
+
+
